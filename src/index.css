@@ -1,1 +1,5 @@
-
+.header {
+  padding: 10px;
+  max-width: min-content;
+  margin: auto;
+}

@@ -10,13 +10,13 @@ const AddNote = () => {
   const navigate = useNavigate();
 
   const handleAdd = () => {
-    if (text.trim()) {
+    if (notetext.trim()) {
       dispatch(addNote(notetext));
       navigate("/");
     }
   };
   return (
-    <div>
+    <div className="header">
       <h2>Add a Note</h2>
       <input
         type="text"
